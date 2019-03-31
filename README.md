@@ -1,7 +1,7 @@
 # diagonals
 Diagonals placement puzzle
 
-## Sample Output
+## Sample Output - Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
 ```
 $ time python3 diagonals.py
 Solution: [[-1, -1, -1, 0, 1], [0, 0, -1, 0, 1], [1, 1, 0, 1, 1], [1, 0, -1, 0, 0], [1, 0, -1, -1, -1]]
@@ -11,7 +11,7 @@ user	0m1.212s
 sys	0m0.008s
 ```
 
-## Optimization
+## Optimization - Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
 Changing the order of `diagonalType` in the search dramatically affects search
 performance. When the following order is used: `[1, -1, 0]`:
 

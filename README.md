@@ -1,0 +1,2 @@
+# diagonals
+Diagonals placement puzzle
